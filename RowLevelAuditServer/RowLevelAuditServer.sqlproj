@@ -73,4 +73,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CodeAsymmetricKey.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="LogRowLevelAudit.sql" />
+    <Build Include="RowLevelSecuritySchema.sql" />
+    <Build Include="SalesOrderHeaderFilter.sql" />
+  </ItemGroup>
 </Project>
