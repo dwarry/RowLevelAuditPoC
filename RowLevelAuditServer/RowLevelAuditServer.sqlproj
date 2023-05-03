@@ -82,5 +82,6 @@
     <Build Include="LogRowLevelAudit.sql" />
     <Build Include="RowLevelSecuritySchema.sql" />
     <Build Include="SalesOrderHeaderFilter.sql" />
+    <Build Include="SalesOrderHeaderPolicy.sql" />
   </ItemGroup>
 </Project>
