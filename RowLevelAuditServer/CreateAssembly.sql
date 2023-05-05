@@ -1,0 +1,7 @@
+USE [AdventureWorks2016]
+
+CREATE ASSEMBLY [RowLevelAudit]
+FROM 'RowLevelAuditServer.dll'
+WITH PERMISSION_SET = EXTERNAL_ACCESS;
+
+GO

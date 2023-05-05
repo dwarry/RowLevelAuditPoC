@@ -4,7 +4,7 @@ WITH SCHEMABINDING
 AS
   RETURN (
     SELECT 1 AS SalesOrderHeaderFilter
-    WHERE rls.LogRowLevelAudit2(SYSTEM_USER, 
+    WHERE rls.LogRowLevelAudit(SYSTEM_USER, 
                                 'Sales.SalesOrderHeader', 
                                 CONCAT(@CustomerID, char(9), @AccountNumber))
          IS NULL
